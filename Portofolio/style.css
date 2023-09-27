@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@300&display=swap');
+html{
+    
+    background: rgb(0,0,0);
+    background: linear-gradient(130deg, rgba(0,0,0,1) 50%, rgba(57,0,121,1) 75%, #730079 100%);
+    font-size: 62.5%;
+}
+body{
+    color: #eee;
+    margin: 15px;
+    border:    1.5px solid #555;
+    box-shadow: -15px -15px 20px rgba(66, 5, 180, 0.5) , inset 5px 0 10px rgba(66,5,180,0.5) , 15px 0 10px rgba(66, 5, 180, 0.336);
+}
+::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0,0) ;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0 ,0.25);
+    border-radius: 5px;
+
+}
+
+header{
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+}
+#naming{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 2.75rem;
+    letter-spacing: 0.15rem;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: -1rem;
+    text-shadow:  -1.5px 0 2px #00b7ff , 1.5px 0 2px rgb(80, 0, 172);    
+    
+  }
+#specialty{
+    font-family: 'Major Mono Display', monospace;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #eee;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-shadow: 0 0 3px #fff , 0 0 5px #00b7ff ;
+
+}
+main{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+p{
+    color: #eeeeeed0;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+h3{
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+.Links{
+    font-family: 'Major Mono Display', monospace;
+    background-color: #00000000;
+    display: block;
+    font-size: 1.5rem;
+    color: #eee;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    border: none;
+    border-left: 1px solid #00000000 ;
+    transition: all 0.5s;
+}
+
+.Links:hover{
+    color: #eeeeee9a;
+    text-shadow: 0 0 1px #fff , -4px 0 10px #00b7ff , 0 0 5px rgb(80, 0, 172);    
+    border-color: #00b7ff;
+    
+}
+.Links:focus{
+    transform: translateX(1rem);
+    text-shadow: 0 0 1px #fff , -4px 0 10px #00b7ff , 0 0 5px rgb(80, 0, 172);    
+    border-color: #00b7ff;
+    font-size: 1.6rem;
+    
+}
+.sections{
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+    transition: all 0.75s;
+    overflow: auto;
+    height: 82%;
+    width: auto;
+    position: absolute;
+    top: 10rem;
+    bottom:4% ; 
+    right: 4%;
+    display: none;
+
+
+}
+
+.content{
+    width: 22ch;
+    font-size: 1.5rem;
+   
+}
+.time{
+    display: block;
+    color: #ffffff94;
+}
+.headlines{
+    display: inline;
+    font-size: 2rem;
+    border-bottom: 1px solid  #00b7ff ;
+
+}
+.adrees{
+    color: #ffffff94;
+    margin-top: -1.5rem;
+    margin-bottom: -0.75rem;
+}
+.adrees +p{
+    color: #ffffff9a;
+
+}
+.adrees +p +p{
+    text-shadow:  0 0 3px #fff;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+#skillsList{
+    color: #eeeeeed0;
+    list-style: circle;
+    margin-left: -2rem;
+    font-size: 1.75rem;
+}
+#skillsList>li{
+    margin-top: 0.5rem;
+}
+.projectsLink{
+    color: #ffffffa1;
+    text-decoration: none;
+    border: 1px solid #eeeeee77;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 5rem;
+    width: 90%;
+    letter-spacing: 0.1rem;
+    margin-left: 2.5%;
+    transition: all 0.5s;
+    height: 2rem;
+    display: block;
+}
+.projectsLink:hover{
+    color: #fff;
+    text-shadow: 0 0 1px #fff , 0 0 20px #00b7ff , 0 0 10px rgb(80, 0, 172);    
+    border-color: #00b7ff;
+}
+.contactLinks >a{
+    color: #eee;
+    font-size: 2rem;
+    text-decoration: none;
+}
+#contactSection{
+    width: 200px;
+    
+}
+#contactSection >p{
+    color: #cccccc;
+    font-size: 1.5rem;
+    
+}
+a{
+    transition: all 0.5s;
+    text-align: center;
+}
+#emailCvContainer{
+    
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    text-shadow:  0 0 3px #00b7ff ;
+}
+#emailCvContainer >a{
+    border: 1px solid #00000000;
+    border-left: 1px solid #00000000;
+    border-right: 1px solid #00000000;
+    padding-top: 0.5rem;
+    height: 3rem;
+    width: 80%;
+
+}
+#emailCvContainer >a:hover{
+    
+    border-left-color: #5bcffd;
+    border-right-color:#f687fc ;
+    
+    text-shadow: 0 0 1px #fff , -3px 0 10px #00b7ff , -2px 0 7px #f200ff   , -3px 0 13px rgb(80, 0, 172) ;
+
+
+}
+
+
+
+#socialLinks{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#socialLinks >a:hover{
+    text-shadow: 0 0 3px #00b7ff;
+}
+
+@media screen and (max-width: 330px) {
+    p{
+        font-size: 1.25rem;
+    }
+    #specialty{
+     font-size: 1.25rem;
+    }
+    #naming{
+        font-size: 2.25rem;
+    }
+    .content{
+        width: 15ch;
+    }
+    #skillsList{
+        font-size: 1.25rem;
+    }
+    .sections>h3{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 500px) { 
+    #naming{
+        font-size: 3.5rem;
+    }
+    #specialty{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+
+    #naming{
+        
+        margin: 0.5rem;
+        font-size: 4.5rem;
+    }
+    #specialty{
+        margin-top: 0;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+    .Links{
+        font-size: 1.75rem;
+    }
+    .Links:focus{
+        font-size: 2rem;
+
+    }
+    p{
+        letter-spacing: 0.2rem;
+        line-height: 2.25rem;
+        font-size: 1.75rem;
+    }
+    .sections{
+        top: 17.5vh;
+    }
+    .content{
+        width: 55ch;
+        
+    }
+    
+    #contactSection{
+        height: auto;
+        width: 25%;
+        right: 20vw;
+    }
+    .contactLinks >a{
+        font-size: 2.5rem;
+    }
+    
+} 
+@media screen and (min-width: 1024px) {
+    
+    
+    #contactSection{
+        top: 35%;
+        right: 35vw;
+    }
+    .contactLinks >a{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    
+    #socialLinks{
+        margin-top: 2rem;
+    }
+
+}
+
+
+
